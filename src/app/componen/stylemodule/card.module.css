@@ -1,0 +1,112 @@
+/* Gaya untuk container yang menampung card */
+.card-container {
+    display: flex;
+    background-color: #060101;
+    flex-wrap: wrap;
+    gap: 20px; /* Spasi antar card */
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  /* Gaya untuk judul card sederhana */
+  .cardsederhana {
+    background-color: #d35313; /* Warna latar belakang gelap */
+    padding: 15px;
+    border-radius: 50%; /* Membuat sudut bulat penuh */
+    width: 200px; /* Lebar card */
+    height: 200px; /* Tinggi card agar berbentuk bulat */
+    text-align: center; /* Menyelaraskan teks di tengah */
+    margin-bottom: 10px;
+    font-size: 16px; /* Ukuran teks */
+    color: #fff; /* Warna teks */
+    display: flex; /* Menggunakan flexbox untuk penyusunan */
+    align-items: center; /* Menyelaraskan teks secara vertikal */
+    justify-content: center; /* Menyelaraskan teks secara horizontal */
+  }
+  
+
+
+  /* Gaya untuk card dengan border */
+  .inijudul {
+    background-color: #fff;
+    border: 2px solid #007bff; /* Border berwarna biru */
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan ringan */
+    transition: all 0.3s ease;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px; /* Memberikan jarak antar elemen */
+    text-align: center; /* Menyelaraskan teks ke tengah */
+  }
+  
+  /* Efek hover untuk card */
+  .inijudul:hover {
+    transform: scale(1.05); /* Efek hover: memperbesar sedikit */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Bayangan lebih tebal saat hover */
+  }
+  
+  /* Gaya untuk judul (h2) */
+  .inijudul h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #007bff; /* Warna biru untuk judul */
+    margin-bottom: 15px; /* Memberikan jarak antara judul dan isi */
+  }
+  
+  /* Gaya untuk deskripsi menu */
+  .inijudul p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px; /* Memberikan jarak antar paragraf */
+  }
+  
+  /* Gaya untuk daftar menu */
+  .menuList {
+    list-style-type: none; /* Menghapus bullet point */
+    padding: 0; /* Menghapus padding default */
+  }
+  
+  .menuList li {
+    font-size: 18px;
+    font-weight: 500;
+    color: #007bff; /* Warna biru untuk menu */
+    margin-bottom: 8px; /* Memberikan jarak antar item menu */
+  }
+  
+  
+  
+  /* Gaya untuk card dengan latar belakang gambar */
+  .bordergambar {
+    background: url('data:image/jpeg;base64,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') center center/cover no-repeat;
+    color: rgb(197, 51, 51);
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    font-size: 22px;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    font-size: 16px;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+  }
+  
+
+  .bordergambar::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Efek overlay gelap untuk teks */
+    border-radius: 8px;
+    z-index: 0;
+  }
+  

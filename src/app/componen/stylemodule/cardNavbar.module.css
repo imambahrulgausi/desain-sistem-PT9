@@ -1,0 +1,154 @@
+/* Gaya Umum untuk Navbar */
+.navbar {
+    padding: 10px 20px; /* Padding di dalam navbar */
+    margin-bottom: 20px; /* Jarak antara navbar */
+}
+
+/* Kontainer untuk Navbar */
+.navbar__container {
+    display: flex; /* Mengatur kontainer menjadi flexbox */
+    justify-content: space-between; /* Jarak antara logo dan tombol */
+    align-items: center; /* Pusatkan item secara vertikal */
+}
+
+/* Gaya untuk Brand */
+.navbar__brand {
+    color: rgb(26, 19, 19); /* Warna teks logo */
+    font-size: 24px; /* Ukuran font untuk logo */
+    text-decoration: none; /* Menghapus garis bawah pada link */
+}
+
+/* Gaya untuk masing-masing tombol */
+.navbar__buttons {
+    display: flex; /* Mengatur tombol menjadi flexbox */
+}
+
+/* Gaya Umum untuk tombol */
+.navbar__button {
+    margin: 0 10px; /* Jarak antara tombol */
+    padding: 10px 20px; /* Padding di dalam tombol */
+    border: none; /* Menghapus border pada tombol */
+    border-radius: 5px; /* Membuat sudut tombol melengkung */
+    cursor: pointer; /* Mengubah kursor saat hover */
+    transition: background-color 0.3s, transform 0.2s; /* Animasi transisi untuk latar belakang */
+}
+
+/* Gaya untuk Navbar Pertama (Biru) */
+.navbar:nth-of-type(1) {
+    background-color: #3ab6dc; /* Biru */
+}
+
+/* Gaya untuk tombol Navbar Pertama */
+.navbar:nth-of-type(1) .navbar__button {
+    border-radius: 15px; /* Bentuk tombol melengkung lebih besar */
+}
+
+.navbar:nth-of-type(1) .navbar__button_primary {
+    background-color: #FF9800; /* Oranye untuk tombol Home */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(1) .navbar__button_secondary {
+    background-color: #FF5722; /* Oranye gelap untuk tombol Makanan */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(1) .navbar__button_success {
+    background-color: #FFEB3B; /* Kuning terang untuk tombol Minuman */
+    color: #333; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(1) .navbar__button_danger {
+    background-color: #F44336; /* Merah untuk tombol Saran */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(1) .navbar__button_warning {
+    background-color: #FFC107; /* Oranye terang untuk tombol Reviews */
+    color: white; /* Warna teks tombol */
+}
+
+/* Gaya untuk Navbar Kedua (Oranye) */
+.navbar:nth-of-type(2) {
+    background-color: #FF9800; /* Oranye terang */
+}
+
+/* Gaya untuk tombol Navbar Kedua */
+.navbar:nth-of-type(2) .navbar__button {
+    border-radius: 25px; /* Bentuk tombol lebih bulat */
+}
+
+.navbar:nth-of-type(2) .navbar__button_primary {
+    background-color: #2196F3; /* Biru untuk tombol Home */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(2) .navbar__button_secondary {
+    background-color: #FF5722; /* Oranye gelap untuk tombol Makanan */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(2) .navbar__button_success {
+    background-color: #8BC34A; /* Hijau muda untuk tombol Minuman */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(2) .navbar__button_danger {
+    background-color: #F44336; /* Merah untuk tombol Saran */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(2) .navbar__button_warning {
+    background-color: #FFEB3B; /* Kuning terang untuk tombol Reviews */
+    color: #333; /* Warna teks tombol */
+}
+
+/* Gaya untuk Navbar Ketiga (Putih dengan Border Hitam) */
+.navbar:nth-of-type(3) {
+    background-color: #ffffff; /* Putih */
+    border: 2px solid black; /* Border hitam */
+}
+
+/* Gaya untuk tombol Navbar Ketiga */
+.navbar:nth-of-type(3) .navbar__button {
+    border-radius: 50px; /* Bentuk tombol bulat */
+}
+
+.navbar:nth-of-type(3) .navbar__button_primary {
+    background-color: #2196F3; /* Biru untuk tombol Home */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(3) .navbar__button_secondary {
+    background-color: #FF9800; /* Oranye terang untuk tombol Makanan */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(3) .navbar__button_success {
+    background-color: #FFEB3B; /* Kuning terang untuk tombol Minuman */
+    color: #333; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(3) .navbar__button_danger {
+    background-color: #F44336; /* Merah untuk tombol Saran */
+    color: white; /* Warna teks tombol */
+}
+
+.navbar:nth-of-type(3) .navbar__button_warning {
+    background-color: #FFC107; /* Oranye terang untuk tombol Reviews */
+    color: white; /* Warna teks tombol */
+}
+
+/* Gaya untuk Input Pencarian */
+.searchInput {
+    padding: 10px; /* Padding di dalam input */
+    border: 1px solid #ccc; /* Border untuk input */
+    border-radius: 5px; /* Sudut input melengkung */
+    margin-left: 10px; /* Jarak kiri dari tombol */
+}
+
+/* Efek hover untuk tombol */
+.navbar__button:hover {
+    opacity: 0.8; /* Mengubah transparansi saat hover */
+    transform: scale(1.05); /* Efek zoom saat hover */
+}

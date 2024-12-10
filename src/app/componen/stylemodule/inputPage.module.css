@@ -1,0 +1,150 @@
+/* Form 1: Formulir Sederhana */
+.formContainer.form1 {
+    background-image: url('https://i.pinimg.com/474x/a4/40/0d/a4400dc74b26f337383847ae24608925.jpg'); /* Gantilah dengan path gambar Anda */
+    background-size: cover; /* Memastikan gambar latar belakang menutupi seluruh kontainer */
+    background-position: center center; /* Memusatkan gambar */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-repeat: no-repeat; /* Mencegah gambar latar belakang agar tidak terulang */
+    margin-bottom: 60px; /* Menambahkan jarak antar form */
+}
+
+.pageTitle.form1 {
+    color: #007BFF;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputGroup.form1 .inputLabel {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.inputField.form1 {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submitButton.form1 {
+    background-color: #FF7F32;
+    color: white;
+    padding: 12px 24px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton.form1:hover {
+    background-color: #FF5722;
+}
+
+
+
+/* Form 2: Complete Form */
+.formContainer.form2 {
+    background-color: #bd7422;
+    padding: 30px;
+    border-radius: 20px; /* Membuat sudut lebih bulat */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    margin-bottom: 60px; /* Menambahkan jarak antar form */
+}
+
+.pageTitle.form2 {
+    color: #28A745;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputGroup.form2 .inputLabel {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #444;
+}
+
+.inputField.form2, .textareaField.form2 {
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #28A745;
+    border-radius: 20px; /* Membuat input dan textarea memiliki sudut lebih bulat */
+    font-size: 1.1rem;
+}
+
+.textareaField.form2 {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submitButton.form2 {
+    background-color: #28A745;
+    color: white;
+    padding: 14px 28px;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 50px; /* Membuat tombol berbentuk bulat */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton.form2:hover {
+    background-color: #218838;
+}
+
+
+/* Form 3: Minimal Form */
+.formContainer.form3 {
+    background-color: #fafafa;
+    padding: 15px;
+    border-radius: 6px;
+    box-shadow: none;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 60px; /* Menambahkan jarak antar form */
+}
+
+.pageTitle.form3 {
+    color: #FF5722;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.inputGroup.form3 .inputLabel {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #555;
+}
+
+.inputField.form3 {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #FF5722;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.submitButton.form3 {
+    background-color: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submitButton.form3:hover {
+    background-color: #FF3D00;
+}

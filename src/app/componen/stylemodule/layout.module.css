@@ -1,0 +1,82 @@
+/* layout.module.css */
+
+.layout {
+    display: flex;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 200px;
+    background-color: #3ab6dc; /* Dark blue */
+    color: white;
+    height: 100vh;
+    position: fixed;
+    padding-top: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px 20px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar ul li a:hover {
+    background-color: #34495E;
+    display: block;
+}
+
+/* Content area styles */
+.content {
+    margin-left: 200px;
+    width: 100%;
+}
+
+/* Top Navbar styles */
+.navbar {
+    background-color: #3ab6dc; /* Same dark blue color */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbarContent {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbarTitle {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.navLinks a {
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navLinks a:hover {
+    text-decoration: underline;
+}
+
+/* Main content styles */
+.main {
+    padding: 20px;
+}

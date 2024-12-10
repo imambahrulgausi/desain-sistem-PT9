@@ -1,0 +1,75 @@
+.pageContainer {
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+    color: #333;
+    padding: 0 20px;
+    text-align: center;
+}
+
+/* Hero Section with background image */
+.heroSection {
+    background-image: url('https://i.pinimg.com/564x/27/37/9c/27379cdf108c2d4e589e8ea36930a4a7.jpg'); /* Ganti dengan URL gambar ikan bakar */
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 20px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Membuat teks lebih terbaca */
+}
+
+.heroTitle {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.heroDescription {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.ctaButton {
+    background-color: #FF6600; /* Orange color for button */
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.ctaButton:hover {
+    background-color: #FF4500; /* Darker orange on hover */
+}
+
+.highlightSection {
+    margin-bottom: 40px;
+}
+
+.highlightTitle {
+    font-size: 2rem;
+    color: #FF6600;  /* Orange color for highlight titles */
+    margin-bottom: 20px;
+}
+
+.highlightDescription {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.footerSection {
+    padding: 20px 0;
+    background-color: #3ab6dc;  /* Blue color for footer */
+    color: #fff;
+}
+
+.footerText {
+    font-size: 1rem;
+    margin: 0;
+}

@@ -1,0 +1,11 @@
+.p {
+    font-size: 16px; /* Ukuran font untuk paragraf */
+    line-height: 1.5; /* Jarak antar baris untuk keterbacaan yang lebih baik */
+    color: #333; /* Warna teks */
+    margin: 15px 0; /* Margin atas dan bawah untuk jarak antar paragraf */
+    text-align: justify; /* Rata kiri dan kanan untuk paragraf */
+    padding: 10px; /* Padding dalam paragraf */
+    background-color: #f9f9f9; /* Latar belakang paragraf */
+    border-left: 4px solid #FF7043; /* Garis samping untuk menambah daya tarik */
+    border-radius: 4px; /* Sudut melengkung untuk paragraf */
+}

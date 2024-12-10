@@ -1,0 +1,75 @@
+/* Container untuk menampung ketiga tipe tipografi */
+.typographyContainer {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  /* Tipografi Kasual dan Ramah - cocok untuk menu makanan yang santai */
+  .typographyCasual {
+    font-family: 'Quicksand', sans-serif; /* Font yang ringan dan ramah */
+    font-size: 20px;
+    font-weight: 400;
+    color: #333; /* Warna teks gelap agar mudah dibaca */
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .typographyCasual h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #cf4747; /* Warna merah khas ikan bakar */
+  }
+  
+  .typographyCasual p {
+    font-size: 16px;
+    color: #555; /* Warna lebih terang untuk teks paragraf */
+  }
+  
+  /* Tipografi Klasik dan Elegan - cocok untuk memberikan kesan kualitas dan profesionalisme */
+  .typographyElegant {
+    font-family: 'Merriweather', serif; /* Font serif klasik untuk kesan elegan */
+    font-size: 18px;
+    font-weight: 400;
+    color: #2d2d2d; /* Teks gelap dengan kesan elegan */
+    line-height: 1.6;
+    text-align: left;
+    margin-bottom: 30px;
+  }
+  
+  .typographyElegant h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #f4a261; /* Warna oranye, cocok untuk makanan ikan bakar */
+  }
+  
+  .typographyElegant p {
+    font-size: 16px;
+    color: #6c757d; /* Warna lembut untuk teks deskripsi */
+  }
+  
+  /* Tipografi Bold dan Berani - cocok untuk menyampaikan pesan yang kuat dan tegas */
+  .typographyBold {
+    font-family: 'Roboto', sans-serif; /* Font sans-serif modern dan tegas */
+    font-size: 22px;
+    font-weight: 700; /* Berat font lebih tebal untuk kesan berani */
+    color: #fff; /* Warna putih untuk kontras yang kuat */
+    line-height: 1.4;
+    text-align: center;
+    padding: 20px;
+    background-color: #cf4747; /* Background merah untuk menarik perhatian */
+    border-radius: 10px;
+  }
+  
+  .typographyBold h1 {
+    font-size: 48px;
+    font-weight: 900; /* Teks judul sangat tebal */
+    color: #fff;
+  }
+  
+  .typographyBold p {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase; /* Membuat teks lebih tegas */
+  }
+  

@@ -1,0 +1,87 @@
+/* General table styles specific to each container */
+.containerOne table,
+.containerTwo table,
+.containerThree table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+/* Styling for the table cells */
+.containerOne td,
+.containerTwo td,
+.containerThree td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Menu title and description styles */
+.menuTitleOne, .menuTitleTwo, .menuTitleThree {
+    font-size: 24px;
+    font-weight: bold;
+    color: #093d5d; /* Deep blue for the title */
+}
+
+.menuDescriptionOne, .menuDescriptionTwo, .menuDescriptionThree {
+    font-size: 16px;
+    color: #FF8C00; /* Orange color for descriptions */
+    margin-bottom: 10px;
+}
+
+/* Specific styles for each container */
+.containerOne, .containerTwo, .containerThree {
+    margin-bottom: 40px;
+}
+
+/* Styling for each specific menu table */
+.menuTableOne,
+.menuTableTwo,
+.menuTableThree {
+    width: 100%;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff; /* White background */
+}
+
+/* Header row with Blue and Orange */
+.containerOne th,
+.containerTwo th,
+.containerThree th {
+    background-color: #093d5d; /* Deep blue for table headers */
+    color: #fff; /* White text for header */
+    padding: 12px;
+    text-align: left;
+    font-size: 18px;
+}
+
+/* Alternate row background color for a clean look */
+.containerOne tr:nth-child(even),
+.containerTwo tr:nth-child(even),
+.containerThree tr:nth-child(even) {
+    background-color: #FF8C00; /* Orange background for even rows */
+    color: #fff; /* White text in orange rows */
+}
+
+/* Hover effect for table rows */
+.containerOne tr:hover,
+.containerTwo tr:hover,
+.containerThree tr:hover {
+    background-color: #093d5d; /* Deep blue background on hover */
+    color: #fff; /* White text on hover */
+}
+
+/* Style for table cell borders */
+.containerOne td,
+.containerTwo td,
+.containerThree td {
+    border: 1px solid #ddd; /* Light gray border */
+}
+
+/* Additional styles for content or container */
+.containerOne, .containerTwo, .containerThree {
+    padding: 20px;
+    background-color: #E3F2FD; /* Light blue background for container */
+    border-radius: 10px;
+}

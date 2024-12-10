@@ -1,0 +1,69 @@
+/* components/stylemodule/bootstrapNavbar.module.css */
+
+/* Gaya untuk navbar menggunakan Bootstrap */
+.navbar {
+    background-color: #ff7043; /* Warna latar belakang oranye terang */
+    padding: 10px 20px; /* Padding di sekitar navbar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Bayangan untuk kedalaman */
+}
+
+/* Gaya untuk brand/logo di navbar */
+.navbar-brand {
+    color: white; /* Warna teks untuk nama merek */
+    font-size: 1.5rem; /* Ukuran font untuk nama merek */
+    font-weight: bold; /* Mengatur teks menjadi tebal */
+}
+
+/* Gaya untuk tautan di navbar */
+.nav-link {
+    color: white; /* Warna teks tautan */
+    font-size: 1rem; /* Ukuran font untuk tautan */
+    padding: 10px 15px; /* Ruang di sekitar tautan */
+    transition: color 0.3s ease; /* Transisi warna saat hover */
+}
+
+/* Gaya saat tautan aktif atau dihover */
+.nav-link.active,
+.nav-link:hover {
+    color: #ffeb3b; /* Mengubah warna teks saat aktif atau dihover */
+}
+
+/* Gaya untuk dropdown */
+.dropdown-menu {
+    background-color: #ff7043; /* Latar belakang dropdown */
+    border: none; /* Menghilangkan batas dropdown */
+}
+
+.dropdown-item {
+    color: white; /* Warna teks untuk item dropdown */
+    padding: 10px 20px; /* Ruang di sekitar item dropdown */
+}
+
+.dropdown-item:hover {
+    background-color: #ff5722; /* Latar belakang saat hover pada item dropdown */
+}
+
+/* Gaya untuk tombol toggle navbar */
+.navbar-toggler {
+    background-color: white; /* Warna latar belakang tombol toggle */
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"%3E%3Cpath stroke="black" stroke-width="2" d="M 5 7 L 25 7 M 5 15 L 25 15 M 5 23 L 25 23" /%3E%3C/svg%3E'); /* Ikon toggle yang berwarna hitam */
+}
+
+/* Gaya untuk form pencarian */
+.form-control {
+    border-radius: 5px; /* Sudut melengkung untuk input pencarian */
+    border: 1px solid #ff5722; /* Batas input pencarian */
+}
+
+.btn-outline-success {
+    border: 1px solid #66bb6a; /* Batas untuk tombol pencarian */
+    color: #66bb6a; /* Warna teks untuk tombol pencarian */
+}
+
+.btn-outline-success:hover {
+    background-color: #66bb6a; /* Latar belakang saat hover pada tombol pencarian */
+    color: white; /* Warna teks saat hover */
+}
